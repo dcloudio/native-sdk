@@ -79,7 +79,7 @@ Package name作为应用标志，涉及申请第三方平台账号，一般情�
     implementation 'com.alibaba:fastjson:1.1.46.android'
 	~~~
 	
-	uni-app配置时需要在build.gradle中添加aaptOptions配置
+	uni-app配置时需要在build.gradle中添加aaptOptions配置（位置：android {}）
 	
 	~~~
 	aaptOptions {  
